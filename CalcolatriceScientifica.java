@@ -1,26 +1,31 @@
 package Scientific_Calculator;
 
+import static java.lang.Math.cos;
+import static java.lang.Math.sin;
+import static java.lang.Math.sqrt;
+
 public class CalcolatriceScientifica {
 
     public static void main(String[] args) {
         
     }
     
-    public double differenza(double a, double b){
-        return a-b;
+    public String radiceQuadrata(double a){
+        return Double.toString(sqrt(a));   
     }
     
-    public double rapporto(double a, double b){
-        return a/b;
+    public String seno(double a){
+        return Double.toString(sin(a));
     }
-
-    public double somma(double a, double b){
-        return a+b;
+    
+    public String coseno(double a){
+        return Double.toString(cos(a));
     }
-
-    public double prodotto(double a, double b){
-        return a*b;
+    
+    public String quadrato(double a){
+        return Double.toString(a*a);
     }
 }
+
 
 

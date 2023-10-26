@@ -15,7 +15,7 @@ import java.util.Collections;
  * @author chris
  */
 
-/* diocane */
+/* diocane prova bella figa*/
 //nunzio
 //master
 public class ScritturaELetturaSuFile {

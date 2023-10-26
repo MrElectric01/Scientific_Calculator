@@ -9,6 +9,17 @@ public class CalcolatriceScientifica {
         
         System.out.println("siamo pazzi");
     }
+
+
+
+
+    public double somma(double a, double b){
+        return a+b;
+    }
+
+    public double prodotto(double a, double b){
+        return a*b;
+    }
 }
 
 

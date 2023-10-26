@@ -13,6 +13,14 @@ public class CalcolatriceScientifica {
     public double rapporto(double a, double b){
         return a/b;
     }
+
+    public double somma(double a, double b){
+        return a+b;
+    }
+
+    public double prodotto(double a, double b){
+        return a*b;
+    }
 }
 
 
